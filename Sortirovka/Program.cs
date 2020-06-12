@@ -39,7 +39,7 @@ namespace Sortirovka
             Console.WriteLine("До сортируеться      После сортируеться");
             for (int i = 0; i < arrColumns; i++)
             {
-                Console.WriteLine("     "+arr[i] + "                       " + sort[i]);
+                Console.WriteLine("     {0:d2}                      {1:d2}", arr[i], sort[i]);
             }
         }
         static void Main(string[] args)
